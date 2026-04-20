@@ -134,7 +134,7 @@ function NavBar({ page, setPage }: { page: Page; setPage: (p: Page) => void }) {
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center gap-2.5 cursor-pointer" onClick={() => setPage("home")}>
           <div className="w-8 h-8 rounded-lg gradient-btn flex items-center justify-center text-white text-sm font-bold">М</div>
-          <span className="font-bold text-lg text-teal-800 hidden sm:block">МедЦентр</span>
+          <span className="font-bold text-lg text-teal-800 hidden sm:block">Лечебно-диагностический центр</span>
         </div>
         <nav className="flex items-center gap-1">
           {items.map((item) => (
@@ -749,7 +749,7 @@ function AboutPage() {
           <img src={HERO_IMAGE} alt="Клиника" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-teal-900/60 to-transparent" />
           <div className="absolute bottom-4 left-4 text-white">
-            <div className="text-2xl font-black">МедЦентр</div>
+            <div className="text-2xl font-black">Лечебно-диагностический центр</div>
             <div className="text-sm text-teal-200">Здоровье рядом с вами</div>
           </div>
         </div>
